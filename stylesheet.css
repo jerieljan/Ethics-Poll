@@ -1,0 +1,48 @@
+html
+{
+	font-family:"Segoe UI", Sans-Serif;
+	max-width:1024px;
+	min-width:480px;
+	margin:auto;
+}
+
+h1
+{
+	border-bottom:3px #000 solid;
+	margin-bottom:35px;
+}
+
+table
+{
+max-width:640px;
+margin:auto;
+
+}
+td
+{
+width:auto;
+}
+
+td.tick
+{
+text-align:center;
+width:50px;
+}
+
+li
+{
+margin-left:0px;
+margin-bottom:20px;
+}
+
+table:hover
+{
+background-color:#CFC;
+
+}
+
+input[type="submit"]
+{
+width:100%;
+height:2em;
+}

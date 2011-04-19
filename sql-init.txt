@@ -1,0 +1,19 @@
+CREATE TABLE User
+(
+Username varchar(50) PRIMARY KEY,
+Gender varchar(1),
+Age int(11),
+Email varchar(50)
+)
+
+CREATE TABLE Answer
+(
+AnswerID int PRIMARY KEY AUTO_INCREMENT,
+Username varchar(50) REFERENCES User(Username),
+QuestionNumber int NOT NULL,
+QuestionType varchar(50) NOT NULL,
+Score int NOT NULL
+
+)
+
+
