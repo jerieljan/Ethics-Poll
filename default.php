@@ -23,7 +23,7 @@ $q = simplexml_load_file("data.xml");
 	<!-- Present Questions -->
 	<?php for ($i = 0; $i < sizeof($q->scenario); $i++) { ?>
 		<div id="<?php echo "item" . $i; ?>" class="question">
-			<h2>Question # <?php echo ($i+1) . " : " . $q->scenario[$i]->title;?></h1>
+			<h2>Question # <?php echo ($i+1) . " : " . $q->scenario[$i]->title;?></h2>
 			<p><?php echo $q->scenario[$i]->text;?></p>		
 			
 			<?php for ($j = 0; $j < count($questions); $j++) { 
