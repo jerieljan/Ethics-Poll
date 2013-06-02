@@ -24,6 +24,7 @@ $s = mysql_connect('<your sql host>', '<your sql user>', '<your sql password>');
 $db = mysql_select_db("<your sql db>", $s);
 
 //Register User
+//Ahhh, yes, extremely exploitable code... This is just a sample app and all, but really, I suggest at least sanitizing data first. Better yet, use parameterization or dispose of PHP entirely >:D
 $sql = "INSERT INTO `<your sql db>`.`User` (`Username`, `Gender`, `Age`, `Email`) VALUES ('". $_POST["name"] . "', '" . $_POST["gender"] . "', '" . $_POST["age"] . "', '" . $_POST["email"] . "')";
 $query = mysql_query($sql);
 if (!$query) { die('You already submitted your answers. ');} 
