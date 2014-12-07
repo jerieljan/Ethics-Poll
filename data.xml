@@ -1,32 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <situations>
-<!--Start: Edit this text to customize the introductory note of the survey. -->
-	<start>
-		<title>My Survey - jerieljan</title>
-		<subtext>This is a multidimensional ethics scale survey. Sample use only.</subtext>
-	</start>
+    <!--Start: Edit this text to customize the introductory note of the survey. -->
+    <start>
+        <title>My Survey - jerieljan</title>
+        <subtext>This is a multidimensional ethics scale survey. Sample use only.</subtext>
+    </start>
 
 
-<!-- SCENARIO START: Feel free to add, edit or remove new scenario questions and actions here. -->
-	<scenario>
-		<title>The Hotmail HTTPS issue</title>
-		<text>As of recent memory, middle east governments are paranoid than ever as activism became rampant in other countries after Egypt and the uprising in Libya. Afraid that the citizens of Syria may also turn against their government sooner or later, the Syrian government has decided to investigate on these claims first before controlling internet access. Besides crawling through multiple social groups in many popular social networks, the government also decided on investigating how e-mail exchanges are conducted per users. With the means to do so, the government can drop secure web protocols to allow them access to sift through people's data who they suspect to cause trouble, all in the name of keeping peace and order. After all, only a handful of individuals would be able to tell the difference, and data would be kept confidential and with care.</text>
-		<action>Microsoft decides to drop secure webmail (HTTPS) access temporarily so that the government can assure itself of harmful activism.</action>
-	</scenario>
+    <!-- SCENARIO START: Feel free to add, edit or remove new scenario questions and actions here. -->
+    <scenario>
+        <title>The Hotmail HTTPS issue</title>
+        <text>As of recent memory, middle east governments are paranoid than ever as activism became
+            rampant in other countries after Egypt and the uprising in Libya. Afraid that the
+            citizens of Syria may also turn against their government sooner or later, the Syrian
+            government has decided to investigate on these claims first before controlling internet
+            access. Besides crawling through multiple social groups in many popular social networks,
+            the government also decided on investigating how e-mail exchanges are conducted per
+            users. With the means to do so, the government can drop secure web protocols to allow
+            them access to sift through people's data who they suspect to cause trouble, all in the
+            name of keeping peace and order. After all, only a handful of individuals would be able
+            to tell the difference, and data would be kept confidential and with care.
+        </text>
+        <action>Microsoft decides to drop secure webmail (HTTPS) access temporarily so that the
+            government can assure itself of harmful activism.
+        </action>
+    </scenario>
 
-	<scenario>
-		<title>Digital Rights Management and Books</title>
-		<text>DRM is known for two ways: A security measure for publishers against piracy and a way to track legitimate purchases. As with DRM, piracy is lessened as it prevents others from copying digital content. However, consumers treat DRM-laced products like the plague and avoid such products because of its restrictive nature and lack of sharing. By using DRM, publishers are more assured that their sales are true and that people are actually paying money for their products. But by removing DRM, it adds convenience to buyers who want to share what they own the way they want to, and sometimes DRM leads to wider, positive feedback as it propagates to others without cost, at the expense of unpredictable sales numbers and possibly unwanted long-term effects.</text>
-		<action>A publisher drops its DRM implementations on its e-books.</action>
-	</scenario>
-<!-- SCENARIO END -->
+    <scenario>
+        <title>Digital Rights Management and Books</title>
+        <text>DRM is known for two ways: A security measure for publishers against piracy and a way
+            to track legitimate purchases. As with DRM, piracy is lessened as it prevents others
+            from copying digital content. However, consumers treat DRM-laced products like the
+            plague and avoid such products because of its restrictive nature and lack of sharing. By
+            using DRM, publishers are more assured that their sales are true and that people are
+            actually paying money for their products. But by removing DRM, it adds convenience to
+            buyers who want to share what they own the way they want to, and sometimes DRM leads to
+            wider, positive feedback as it propagates to others without cost, at the expense of
+            unpredictable sales numbers and possibly unwanted long-term effects.
+        </text>
+        <action>A publisher drops its DRM implementations on its e-books.</action>
+    </scenario>
+    <!-- SCENARIO END -->
 
 
-<!-- End: Edit this text to customize the results page. -->
-	<end>
-		<subheading>Thank you!</subheading>
-		<text>Your results have been submitted. Thank you for taking the time for answering this survey.</text>
-	</end>
+    <!-- End: Edit this text to customize the results page. -->
+    <end>
+        <subheading>Thank you!</subheading>
+        <text>Your results have been submitted. Thank you for taking the time for answering this
+            survey.
+        </text>
+    </end>
 </situations>
 
 
